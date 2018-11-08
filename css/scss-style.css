@@ -77,4 +77,13 @@ span.psw {
   .cancelbtn {
     width: auto; } }
 
+
+.content {
+   font-family: verdana; 
+   margin:10px;
+   line-height: 20px;
+  
+    
+}
+
 /*# sourceMappingURL=scss-style.css.map */

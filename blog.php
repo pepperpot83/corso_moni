@@ -107,7 +107,10 @@ mysqli_close($link);// finito le operazioni chiudo la connessione
              dove $result sarà la varibile in cui è stata salvata la risorsa e 0 la prima riga della risorsa
              
             */
-            while($row = mysqli_fetch_assoc($result)){
+            
+              while($row = mysqli_fetch_assoc($result)){
+         
+            
                 echo'<article>';
                 echo '<h2>'.$row['title'].'</h2>';
                 /*['title'] corrisponde al valore della colonna title in questa riga della risorsa*/
@@ -125,6 +128,8 @@ mysqli_close($link);// finito le operazioni chiudo la connessione
                 nella tabella posts
                 */
                echo'</article>';     
+             
+               
             }
 
             ?>
