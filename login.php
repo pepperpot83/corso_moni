@@ -195,7 +195,7 @@ mysqli_close($link);
             <form enctype="multipart/form-data" action="login.php" method="post">
             <div class="container">
             <div class="imgcontainer">
-            <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+            <img src="img/monica_occhigonfi.jpg" alt="Avatar" class="avatar">
             </div>    
             <label for="uname"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
