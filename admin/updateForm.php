@@ -55,7 +55,7 @@ if($_POST['action']=='update'){
     mysqli_query($link,$queryupdate);
     
    // redirigo su /php/corso/admin/adminPost.php
-    Header('Location: adminPost.php');
+    // Header('Location: adminPost.php');
 }
  
 
@@ -109,7 +109,7 @@ echo'</pre>';
             while($row = mysqli_fetch_assoc($result)){
                     // qui ci sarà il form che mi permetterà di modificare i dati 
                 ?>
-            <form enctype="multipart/form-data" action="/php/corso/admin/updateForm.php" method="post">
+            <form enctype="multipart/form-data" action="/corso_moni/admin/updateForm.php" method="post">
                                  <input type="hidden" name="action" value="update">
                                  <input type="hidden" name="id" value="<?php echo($row['id']) ?>">
                                 <div class="container"> 
